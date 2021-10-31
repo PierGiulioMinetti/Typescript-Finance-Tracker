@@ -1,0 +1,66 @@
+:root{
+    --color-text: #fff;
+    --background-text: rgb(244, 68, 200);
+    --background-container: rgb(180, 167, 167);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    margin: 1rem;
+    text-align: center;
+    color: var(--background-text);
+}
+
+button{
+    background-color: var(--background-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: var(--color-text);
+    transition: transform 0.4s linear;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+label{
+    color: rgb(63, 63, 63);
+   margin-bottom: 1rem;
+}
+
+.input-container{
+    
+    background-color: var(--background-container);
+}
+
+.box-container{
+    margin: 2rem auto;
+    padding: 2rem;
+    
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items:flex-start; */
+}
+
+.li-invoice{
+    background-color: rgba(105, 255, 105, 0.5);
+    margin: 0.5rem ;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.li-payment{
+    background-color: rgba(247, 14, 14, 0.5);
+margin: 0.5rem ;
+padding: 0.5rem;
+border-radius: 5px;
+}

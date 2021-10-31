@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Tracker</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>
+            Finance Tracker App
+        </h1>
+
+        <div class=" output">
+            <ul class="ul-output">
+
+            </ul>
+        </div>
+
+        <div class="input-container">
+            <div class="box-container">
+
+                <div class="dropDown">
+                    <form id="form">
+                        <label for="dropDown">Type</label>
+                        <br>
+                        <select name="dropDown" id="dropDown">
+                            <option value="invoice">Invoice</option>
+                            <option value="payment">Payment</option>
+                        </select>
+                </div>
+                <div class="toFrom-amount-container">
+                    <label for="toFrom">To/From</label>
+                    <br>
+                    <input type="text" name="toFrom" id="toFrom">
+                    <br>
+                    <label for="amount">Amount</label>
+                    <br>
+                    <input type="text" name="amount" id="amount">
+                </div>
+                <div class="detail-add-container">
+                    <label for="details">Details</label>
+                    <br>
+                    <input type="text" id="details">
+                    <br>
+                    <br>
+                    <!-- <button>Add</button> -->
+                    <input type="submit" value="submit-form" id="submit-form">
+                    <!-- <button onclick="this.form.reset()">reset</button> -->
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
